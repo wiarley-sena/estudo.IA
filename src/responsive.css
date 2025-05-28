@@ -1,0 +1,18 @@
+@media (max-width:768px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+    .menu, ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .conteudo {
+        flex-direction: column;
+    }
+    img {
+        height: auto;
+    }
+}
